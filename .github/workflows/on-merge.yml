@@ -1,0 +1,68 @@
+# This workflow is triggered every time a change is pushed to any branches
+# Github actions command reference: https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions
+name: On merge to main
+
+# The workflow could also be triggered on PRs
+on:
+  push:
+    branches:
+      - 'main'
+    tags-ignore:
+      - '**'
+
+jobs:
+  update-signature:
+    name: Update module signature
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: jahia/jahia-modules-action/update-signature@v2
+        with:
+          nexus_username: ${{ secrets.NEXUS_USERNAME }}
+          nexus_password: ${{ secrets.NEXUS_PASSWORD }}
+
+  build:
+    name: Build Module
+    needs: update-signature
+    runs-on: self-hosted
+    env:
+      NEXUS_INTERNAL_URL: https://devtools.jahia.com/nexus/content/groups/internal/
+    container:
+      image: jahia/cimg-mvn-cache:ga_cimg_openjdk_11.0.20-node
+      credentials:
+        username: ${{ secrets.DOCKERHUB_USERNAME }}
+        password: ${{ secrets.DOCKERHUB_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-java@v3
+        with:
+          distribution: 'zulu'
+          java-version: '11.0.19'
+      - uses: jahia/jahia-modules-action/build@v2
+        with:
+          module_id: luxe-prepackaged-website
+          mvn_settings_filepath: '.github/maven.settings.xml'
+          nexus_username: ${{ secrets.NEXUS_USERNAME }}
+          nexus_password: ${{ secrets.NEXUS_PASSWORD }}
+
+  publish:
+    name: Publish module
+    needs: [build]
+    if: github.ref == 'refs/heads/main'
+    runs-on: self-hosted
+    container:
+      image: jjahia/cimg-mvn-cache:ga_cimg_openjdk_11.0.20-node
+      credentials:
+        username: ${{ secrets.DOCKERHUB_USERNAME }}
+        password: ${{ secrets.DOCKERHUB_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-java@v3
+        with:
+          distribution: 'zulu'
+          java-version: '11.0.19'
+      - uses: jahia/jahia-modules-action/publish@v2
+        with:
+          nexus_username: ${{ secrets.NEXUS_USERNAME }}
+          nexus_password: ${{ secrets.NEXUS_PASSWORD }}
+          mvn_settings_filepath: '.github/maven.settings.xml'
