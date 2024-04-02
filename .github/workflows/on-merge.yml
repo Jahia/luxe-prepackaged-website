@@ -51,7 +51,7 @@ jobs:
     if: github.ref == 'refs/heads/main'
     runs-on: self-hosted
     container:
-      image: jjahia/cimg-mvn-cache:ga_cimg_openjdk_11.0.20-node
+      image: jahia/cimg-mvn-cache:ga_cimg_openjdk_11.0.20-node
       credentials:
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_PASSWORD }}
