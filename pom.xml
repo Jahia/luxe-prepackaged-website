@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
-                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0                       http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <artifactId>jahia-modules</artifactId>
         <groupId>org.jahia.modules</groupId>
-        <version>8.2.0.0-SNAPSHOT</version>
+        <version>8.2.0.0</version>
     </parent>
     <artifactId>luxe-prepackaged-website</artifactId>
     <name>Luxe pre-packaged website</name>
-    <version>0.1.0-SNAPSHOT</version>
+    <version>0.1.0</version>
     <packaging>bundle</packaging>
     <description>This is the custom module (Luxe pre-packaged website) for running on a Jahia server.</description>
 
@@ -20,7 +17,8 @@
         <connection>scm:git:git@github.com:Jahia/luxe-prepackaged-website.git</connection>
         <developerConnection>scm:git:git@github.com:Jahia/luxe-prepackaged-website.git</developerConnection>
         <url>https://github.com/Jahia/luxe-prepackaged-website</url>
-    </scm>
+      <tag>0_1_0</tag>
+  </scm>
 
     <properties>
         <jahia-module-type>system</jahia-module-type>
