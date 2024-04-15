@@ -5,7 +5,7 @@
     <parent>
         <artifactId>jahia-modules</artifactId>
         <groupId>org.jahia.modules</groupId>
-        <version>8.2.0.0</version>
+        <version>8.2.0.0-SNAPSHOT</version>
     </parent>
     <artifactId>luxe-prepackaged-website</artifactId>
     <name>Luxe pre-packaged website</name>
@@ -23,7 +23,7 @@
     <properties>
         <jahia-module-type>system</jahia-module-type>
         <jahia-depends>default,luxe-jahia-demo</jahia-depends>
-        <jahia-module-signature>MCwCFC5SgYCfZJyXLH97H56af2mFq4aAAhRcocg2yCP0U7ZYSPtiYdbp2xDm/A==</jahia-module-signature>
+        <jahia-module-signature>MC0CFQCQAy/iC6FuBaAssHduLcwsNtEY8wIUMlT4+gI2ynrjg3GhGhfdG0kDBMg=</jahia-module-signature>
     </properties>
 
     <repositories>
