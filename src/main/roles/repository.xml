@@ -153,23 +153,23 @@
       </site-administrator>
       <server-administrator j:hidden="false"
                             j:nodeTypes="rep:root"
-                            j:permissionNames="repository-permissions admin publish canSeeAdvancedOptionsTab"
+                            j:permissionNames="repository-permissions admin canSeeAdvancedOptionsTab repositoryExplorer"
                             j:privilegedAccess="true"
                             j:roleGroup="server-role"
                             jcr:primaryType="jnt:role"
                             jcr:uuid="203adb4e-deac-4682-8999-986b9bcbeb8d">
          <j:translation_en jcr:description="Grant access to the server administration"
                            jcr:language="en"
-                           jcr:lastModified="2024-04-15T08:23:35.374Z"
-                           jcr:lastModifiedBy=""
+                           jcr:lastModified="2024-04-15T13:33:48.165Z"
+                           jcr:lastModifiedBy="robin"
                            jcr:mixinTypes="mix:title"
                            jcr:primaryType="jnt:translation"
                            jcr:title="Server administrator"
                            jcr:uuid="c3193846-6901-4d79-93d7-9b6bf7bf50d5"/>
-         <currentSite-access j:path="/sites/systemsite"
-                             j:permissionNames="managers engineTabs"
-                             jcr:primaryType="jnt:externalPermissions"
-                             jcr:uuid="d94a0bd4-bc6b-44db-8477-aac2b7c6c0e6"/>
+         <sites-systemsite-access j:path="/sites/systemsite"
+                                  j:permissionNames="engineTabs managers"
+                                  jcr:primaryType="jnt:externalPermissions"
+                                  jcr:uuid="d8ab8ce5-674f-4e0b-a4ba-5b363bfbce9a"/>
       </server-administrator>
       <system-administrator j:hidden="false"
                             j:permissionNames="systemToolsAccess repository-permissions provisioningAccess"
