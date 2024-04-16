@@ -86,5 +86,22 @@
             </categories>
         </systemsite>
     </sites>
+    <j:acl jcr:primaryType="jnt:acl">
+        <GRANT_u_robin j:aceType="GRANT"
+                       j:principal="u:robin"
+                       j:protected="false"
+                       j:roles="web-designer server-administrator"
+                       jcr:primaryType="jnt:ace"/>
+    </j:acl>
+    <tools jcr:mixinTypes="jmix:accessControlled"
+           jcr:primaryType="nt:unstructured">
+        <j:acl j:inherit="false" jcr:primaryType="jnt:acl">
+            <GRANT_u_robin j:aceType="GRANT"
+                           j:principal="u:robin"
+                           j:protected="false"
+                           j:roles="system-administrator"
+                           jcr:primaryType="jnt:ace"/>
+        </j:acl>
+    </tools>
 </content>
 
