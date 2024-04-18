@@ -13,7 +13,7 @@
             jcr:createdBy="system"
             jcr:lastModified="2024-04-15T13:26:09.628Z"
             jcr:lastModifiedBy=""
-            jcr:mixinTypes="jmix:accessControlled rtmix:ckEditorVersionSelector"
+            jcr:mixinTypes="jmix:accessControlled"
             jcr:primaryType="jnt:virtualsite"
             jcr:uuid="db9dfbb2-ad22-4714-8247-200aef55eba3"
             useCkEditor4="false">
