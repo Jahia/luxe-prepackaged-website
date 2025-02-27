@@ -3910,39 +3910,68 @@
       </luxe>
       <systemsite jcr:primaryType="jnt:virtualsite">
          <categories jcr:primaryType="jnt:category">
-            <content-status jcr:primaryType="jnt:category">
-               <featured j:lastPublished="2024-04-15T08:32:05.701Z"
-                         j:lastPublishedBy="root"
-                         j:originWS="default"
-                         j:published="true"
-                         j:workInProgressStatus="DISABLED"
+            <content-status j:lastPublished="2024-04-15T09:14:20.831Z" j:lastPublishedBy="root" j:originWS="default"
+                            j:published="true" jcr:created="2024-04-15T08:32:03.845Z" jcr:createdBy="system"
+                            jcr:lastModified="2024-04-15T09:14:20.818Z" jcr:lastModifiedBy="root"
+                            jcr:primaryType="jnt:category"
+                            jcr:uuid="9d4c3878-a878-4bfd-8698-a6afa4f5c49a">
+               <featured j:lastPublished="2024-04-15T09:14:20.831Z" j:lastPublishedBy="root" j:originWS="default"
+                         j:published="true" j:workInProgressStatus="DISABLED"
                          jcr:created="2024-04-12T14:56:00.981Z"
-                         jcr:createdBy="root"
-                         jcr:lastModified="2024-04-15T08:32:05.585Z"
-                         jcr:lastModifiedBy=""
-                         jcr:primaryType="jnt:category"
-                         jcr:uuid="edcb3104-310d-47e1-9f84-1ccbaa2cdc32">
-                  <j:translation_fr j:lastPublished="2024-04-18T16:11:52.329Z"
-                                    j:lastPublishedBy="root"
-                                    j:published="true"
-                                    jcr:language="fr"
-                                    jcr:lastModified="2024-04-18T16:11:52.314Z"
-                                    jcr:lastModifiedBy=""
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
+                         jcr:createdBy="root" jcr:lastModified="2024-04-15T09:14:20.818Z" jcr:lastModifiedBy="root"
+                         jcr:primaryType="jnt:category" jcr:uuid="5ca15630-d1a7-4708-b516-d859a8e18434">
+                  <j:translation_fr j:lastPublished="2024-04-15T09:14:20.831Z" j:lastPublishedBy="root"
+                                    j:published="true" jcr:language="fr"
+                                    jcr:lastModified="2024-04-15T09:14:20.818Z" jcr:lastModifiedBy="root"
+                                    jcr:mixinTypes="mix:title" jcr:primaryType="jnt:translation"
                                     jcr:title=" Mis en avant"
-                                    jcr:uuid="ce2fe387-0170-40a2-a81a-e30b6ae8dccb"/>
-                  <j:translation_en j:lastPublished="2024-04-18T16:11:52.329Z"
-                                    j:lastPublishedBy="root"
-                                    j:published="true"
-                                    jcr:language="en"
-                                    jcr:lastModified="2024-04-18T16:11:52.314Z"
-                                    jcr:lastModifiedBy=""
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Featured"
-                                    jcr:uuid="8d5f2360-a18e-439d-9cf0-f77bb1ab1083"/>
+                                    jcr:uuid="b3a75a27-063b-4c70-953d-6da89e7c05aa"/>
+                  <j:translation_en
+                          j:lastPublished="2024-04-15T09:14:20.831Z" j:lastPublishedBy="root" j:published="true"
+                          jcr:language="en"
+                          jcr:lastModified="2024-04-15T09:14:20.818Z" jcr:lastModifiedBy="root"
+                          jcr:mixinTypes="mix:title"
+                          jcr:primaryType="jnt:translation" jcr:title="Featured"
+                          jcr:uuid="de3ab46b-98cb-41cd-86cc-f2c861b6750c"/>
                </featured>
+               <promoted j:lastPublished="2024-04-15T09:14:20.831Z" j:lastPublishedBy="root" j:originWS="default"
+                         j:published="true" j:workInProgressStatus="DISABLED"
+                         jcr:created="2024-04-15T08:50:41.091Z"
+                         jcr:createdBy="root" jcr:lastModified="2024-04-15T09:14:20.818Z" jcr:lastModifiedBy="root"
+                         jcr:primaryType="jnt:category" jcr:uuid="381b261c-1d1d-4663-a418-0a2fe766c069">
+                  <j:translation_fr j:lastPublished="2024-04-15T09:14:20.831Z" j:lastPublishedBy="root"
+                                    j:published="true" jcr:language="fr"
+                                    jcr:lastModified="2024-04-15T09:14:20.818Z" jcr:lastModifiedBy="root"
+                                    jcr:mixinTypes="mix:title" jcr:primaryType="jnt:translation"
+                                    jcr:title="Promu"
+                                    jcr:uuid="b2c8f6c0-f992-4b3a-bf55-7e63276a82ba"/>
+                  <j:translation_en
+                          j:lastPublished="2024-04-15T09:14:20.831Z" j:lastPublishedBy="root" j:published="true"
+                          jcr:language="en"
+                          jcr:lastModified="2024-04-15T09:14:20.818Z" jcr:lastModifiedBy="root"
+                          jcr:mixinTypes="mix:title"
+                          jcr:primaryType="jnt:translation" jcr:title="Promoted"
+                          jcr:uuid="871df8b3-e7b6-43df-b1ad-f991e553c14a"/>
+               </promoted>
+               <archived j:lastPublished="2024-04-15T09:14:20.831Z" j:lastPublishedBy="root" j:originWS="default"
+                         j:published="true" j:workInProgressStatus="DISABLED"
+                         jcr:created="2024-04-15T08:50:59.626Z"
+                         jcr:createdBy="root" jcr:lastModified="2024-04-15T09:14:20.818Z" jcr:lastModifiedBy="root"
+                         jcr:primaryType="jnt:category" jcr:uuid="3efa1b57-cbb4-4f4e-8bab-602bb059a340">
+                  <j:translation_fr j:lastPublished="2024-04-15T09:14:20.831Z" j:lastPublishedBy="root"
+                                    j:published="true" jcr:language="fr"
+                                    jcr:lastModified="2024-04-15T09:14:20.818Z" jcr:lastModifiedBy="root"
+                                    jcr:mixinTypes="mix:title" jcr:primaryType="jnt:translation"
+                                    jcr:title="Archivé"
+                                    jcr:uuid="39710af9-bd3a-4d46-98b7-ee2c4a48df8a"/>
+                  <j:translation_en
+                          j:lastPublished="2024-04-15T09:14:20.831Z" j:lastPublishedBy="root" j:published="true"
+                          jcr:language="en"
+                          jcr:lastModified="2024-04-15T09:14:20.818Z" jcr:lastModifiedBy="root"
+                          jcr:mixinTypes="mix:title"
+                          jcr:primaryType="jnt:translation" jcr:title="Archived"
+                          jcr:uuid="41d9dd1c-4fce-4a41-b5ee-f2ddf2e81562"/>
+               </archived>
             </content-status>
          </categories>
       </systemsite>
