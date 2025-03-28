@@ -23,7 +23,7 @@
     <properties>
         <jahia-module-type>system</jahia-module-type>
         <jahia-depends>default,luxe-jahia-demo</jahia-depends>
-        <jahia-module-signature>MCwCFF95b5Wqpou/+jliiqJWhpE0psHcAhRsWTVZli8ioBMtoCLlPFu7IHwVLg==</jahia-module-signature>
+        <jahia-module-signature>MCwCFDrysAAK+cLpZXZJgu6pRQY+xMNEAhQjbUDuZUMuQH07PQS+586jINpOKA==</jahia-module-signature>
     </properties>
 
     <repositories>
