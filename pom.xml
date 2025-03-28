@@ -9,7 +9,7 @@
     </parent>
     <artifactId>luxe-prepackaged-website</artifactId>
     <name>Luxe pre-packaged website</name>
-    <version>0.3.0-SNAPSHOT</version>
+    <version>0.6.0-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <description>This is the custom module (Luxe pre-packaged website) for running on a Jahia server.</description>
 
@@ -23,7 +23,7 @@
     <properties>
         <jahia-module-type>system</jahia-module-type>
         <jahia-depends>default,luxe-jahia-demo</jahia-depends>
-        <jahia-module-signature>MCwCFEY+T+Wrzi5quQ5XZ7MLWW+49PmCAhQsUE6KFyId1PdF8MJu+bcQyzPPTA==</jahia-module-signature>
+        <jahia-module-signature>MCwCFF95b5Wqpou/+jliiqJWhpE0psHcAhRsWTVZli8ioBMtoCLlPFu7IHwVLg==</jahia-module-signature>
     </properties>
 
     <repositories>
