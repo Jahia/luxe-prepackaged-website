@@ -9,7 +9,7 @@
     </parent>
     <artifactId>luxe-prepackaged-website</artifactId>
     <name>Luxe pre-packaged website</name>
-    <version>0.6.1-SNAPSHOT</version>
+    <version>0.6.1</version>
     <packaging>bundle</packaging>
     <description>This is the custom module (Luxe pre-packaged website) for running on a Jahia server.</description>
 
@@ -17,7 +17,7 @@
         <connection>scm:git:git@github.com:Jahia/luxe-prepackaged-website.git</connection>
         <developerConnection>scm:git:git@github.com:Jahia/luxe-prepackaged-website.git</developerConnection>
         <url>https://github.com/Jahia/luxe-prepackaged-website</url>
-      <tag>HEAD</tag>
+      <tag>0_6_1</tag>
   </scm>
 
     <properties>
