@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<formations xmlns:seaddonsnt="http://www.jahia.org/seaddons/nt/1.0"
+    xmlns:seaddonsmix='http://www.jahia.org/seaddons/mix/1.0'
+    xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:jmix="http://www.jahia.org/jahia/mix/1.0"
+    xmlns:j="http://www.jahia.org/jahia/1.0" xmlns:jnt="http://www.jahia.org/jahia/nt/1.0"
+    j:originWS="default"
+    jcr:mixinTypes="jmix:contributeMode" jcr:primaryType="jnt:contentFolder">
+    <formationSession1 jcr:primaryType="seaddonsnt:trainingSession"
+        sessionTitle="Procédures de Sécurité"
+        sessionDescription="Vue d'ensemble complète de tous les protocoles de sécurité."
+        sessionObjective="Assurer que tout le personnel est familier avec les procédures d'urgence."
+        sessionDate="2024-03-10T08:00:00.000+00:00"
+        startTime="08:00"
+        endTime="11:00"
+        location="Centre de Formation"
+        levelOfExpertise="Beginner"
+        instructorName="John Doe"
+        materialsLink="https://" />
+
+    <formationSession2 jcr:primaryType="seaddonsnt:trainingSession"
+        sessionTitle="Excellence du Service Client"
+        sessionDescription="Compétences pour améliorer la satisfaction des visiteurs."
+        sessionObjective="Améliorer les interactions avec les visiteurs dans toutes les zones du parc."
+        sessionDate="2024-03-12T09:00:00.000+00:00"
+        startTime="09:00"
+        endTime="12:00"
+        location="Salle Principale"
+        levelOfExpertise="Intermediate"
+        instructorName="Emily Stark"
+        materialsLink="https://" />
+
+    <formationSession3 jcr:primaryType="seaddonsnt:trainingSession"
+        sessionTitle="Efficacité Opérationnelle"
+        sessionDescription="Optimisation des opérations quotidiennes."
+        sessionObjective="Améliorer les flux de travail opérationnels pour une efficacité maximale."
+        sessionDate="2024-03-15T10:00:00.000+00:00"
+        startTime="10:00"
+        endTime="13:00"
+        location="Salle de Conférence B"
+        levelOfExpertise="Advanced"
+        instructorName="Alan Turing"
+        materialsLink="https://" />
+
+    <formationSession4 jcr:primaryType="seaddonsnt:trainingSession"
+        sessionTitle="Intervention Médicale d'Urgence"
+        sessionDescription="Formation aux premiers secours et réponses aux urgences."
+        sessionObjective="Préparer le personnel aux urgences médicales."
+        sessionDate="2024-03-20T08:00:00.000+00:00"
+        startTime="08:00"
+        endTime="11:00"
+        location="Département des Services de Santé"
+        levelOfExpertise="Expert"
+        instructorName="Dr. Jane Smith"
+        materialsLink="https://" />
+
+    <formationSession5 jcr:primaryType="seaddonsnt:trainingSession"
+        sessionTitle="Formation à l'Opération des Attractions"
+        sessionDescription="Gestion et opération des attractions du parc."
+        sessionObjective="Former les nouveaux opérateurs aux procédures et à la sécurité des attractions."
+        sessionDate="2024-03-22T09:00:00.000+00:00"
+        startTime="09:00"
+        endTime="12:00"
+        location="Salle de Contrôle des Attractions"
+        levelOfExpertise="Beginner"
+        instructorName="Mark Renner"
+        materialsLink="https://" />
+
+    <formationSession6 jcr:primaryType="seaddonsnt:trainingSession"
+        sessionTitle="Hospitalité et Tourisme"
+        sessionDescription="Améliorer l'expérience visiteur à travers l'hospitalité."
+        sessionObjective="Comprendre l'impact du tourisme sur les opérations du parc."
+        sessionDate="2024-03-25T10:00:00.000+00:00"
+        startTime="10:00"
+        endTime="13:00"
+        location="Centre des Visiteurs"
+        levelOfExpertise="Intermediate"
+        instructorName="Lisa Wong"
+        materialsLink="https://" />
+</formations>

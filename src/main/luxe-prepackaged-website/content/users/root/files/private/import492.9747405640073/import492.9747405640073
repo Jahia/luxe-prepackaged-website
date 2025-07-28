@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<es-public xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:jnt="http://www.jahia.org/jahia/nt/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:commix="http://www.jahia.com/jahia/mix/1.0" xmlns:jmix="http://www.jahia.org/jahia/mix/1.0" xmlns:j="http://www.jahia.org/jahia/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:vbj="http://www.virbac.com/jahia/nt/1.0" xmlns:rep="internal" j:lastPublished="2014-01-15T13:48:28.393Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:47:54.529Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:48:28.377Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+  <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+  <j:translation_es j:lastPublished="2014-01-15T13:48:28.580Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:48:28.564Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="es-public" />
+  <events j:lastPublished="2014-01-15T13:49:15.755Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:49:15.568Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:49:15.740Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+    <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+    <j:translation_es j:lastPublished="2014-01-15T13:49:15.896Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:49:15.896Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="Events" />
+    <event-type-1 j:lastPublished="2014-01-15T13:49:43.243Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:49:42.900Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:49:43.243Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+      <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+      <j:translation_es j:lastPublished="2014-01-15T13:49:43.399Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:49:43.399Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="Event type 1" />
+    </event-type-1>
+    <event-type-2 j:lastPublished="2014-01-15T13:49:47.159Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:49:46.971Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:49:47.159Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+      <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+      <j:translation_es j:lastPublished="2014-01-15T13:49:47.315Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:49:47.315Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="Event type 2" />
+    </event-type-2>
+  </events>
+  <news j:lastPublished="2014-01-15T13:49:19.203Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:49:19.016Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:49:19.187Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+    <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+    <j:translation_es j:lastPublished="2014-01-15T13:49:19.359Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:49:19.343Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="News" />
+    <news-type-1 j:lastPublished="2014-01-15T13:50:00.044Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:49:59.826Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:50:00.044Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+      <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+      <j:translation_es j:lastPublished="2014-01-15T13:50:00.200Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:50:00.200Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="News type 1" />
+    </news-type-1>
+    <news-type-2 j:lastPublished="2014-01-15T13:50:05.208Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:50:04.943Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:50:05.208Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+      <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+      <j:translation_es j:lastPublished="2014-01-15T13:50:05.364Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:50:05.364Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="News type 2" />
+    </news-type-2>
+  </news>
+  <products j:lastPublished="2014-01-15T13:49:23.228Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:49:23.025Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:49:23.212Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+    <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+    <j:translation_es j:lastPublished="2014-01-15T13:49:23.384Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:49:23.368Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="Products" />
+    <ranges j:lastPublished="2014-01-15T13:50:35.957Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:50:35.754Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:50:35.941Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+      <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+      <j:translation_es j:lastPublished="2014-01-15T13:50:36.113Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:50:36.113Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="Ranges" />
+      <range-1 j:lastPublished="2014-01-15T13:51:36.349Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:51:36.146Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:51:36.334Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+        <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+        <j:translation_es j:lastPublished="2014-01-15T13:51:36.490Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:51:36.490Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="Range 1" />
+      </range-1>
+      <range-2 j:lastPublished="2014-01-15T13:51:39.704Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:51:39.438Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:51:39.688Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+        <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+        <j:translation_es j:lastPublished="2014-01-15T13:51:39.860Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:51:39.844Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="Range 2" />
+      </range-2>
+    </ranges>
+    <species j:lastPublished="2014-01-15T13:50:44.771Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:50:44.569Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:50:44.771Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+      <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+      <j:translation_es j:lastPublished="2014-01-15T13:50:44.927Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:50:44.927Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="Species" />
+      <species-type-1 j:lastPublished="2014-01-15T13:52:01.264Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:52:01.046Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:52:01.264Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+        <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+        <j:translation_es j:lastPublished="2014-01-15T13:52:01.420Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:52:01.405Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="Species type 1" />
+      </species-type-1>
+      <species-type-2 j:lastPublished="2014-01-15T13:52:04.759Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:52:04.478Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:52:04.744Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+        <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+        <j:translation_es j:lastPublished="2014-01-15T13:52:04.915Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:52:04.900Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="Species type 2" />
+      </species-type-2>
+    </species>
+    <types j:lastPublished="2014-01-15T13:50:51.418Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:50:51.215Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:50:51.402Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+      <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+      <j:translation_es j:lastPublished="2014-01-15T13:50:51.574Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:50:51.558Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="Types" />
+      <type-1 j:lastPublished="2014-01-15T13:52:12.373Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:52:12.123Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:52:12.373Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+        <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+        <j:translation_es j:lastPublished="2014-01-15T13:52:12.544Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:52:12.529Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="Type 1" />
+      </type-1>
+      <type-2 j:lastPublished="2014-01-15T13:52:17.849Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:52:17.490Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:52:17.849Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+        <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+        <j:translation_es j:lastPublished="2014-01-15T13:52:18.005Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:52:18.005Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="Type 2" />
+      </type-2>
+    </types>
+  </products>
+  <settings j:lastPublished="2014-01-15T13:49:30.201Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:49:29.983Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:49:30.185Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+    <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+    <j:translation_es j:lastPublished="2014-01-15T13:49:30.357Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:49:30.357Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="Settings" />
+    <activities j:lastPublished="2014-01-15T13:51:03.602Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:51:03.399Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:51:03.587Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+      <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+      <j:translation_es j:lastPublished="2014-01-15T13:51:03.758Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:51:03.743Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="Activities" />
+      <activity-1 j:lastPublished="2014-01-15T13:52:28.426Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:52:28.177Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:52:28.426Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+        <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+        <j:translation_es j:lastPublished="2014-01-15T13:52:28.598Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:52:28.598Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="Activity 1" />
+      </activity-1>
+      <activity-2 j:lastPublished="2014-01-15T13:52:31.344Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:52:31.157Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:52:31.344Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+        <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+        <j:translation_es j:lastPublished="2014-01-15T13:52:31.500Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:52:31.500Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="Activity 2" />
+      </activity-2>
+    </activities>
+    <business-units j:lastPublished="2014-01-15T13:51:10.436Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:51:10.217Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:51:10.436Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+      <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+      <j:translation_es j:lastPublished="2014-01-15T13:51:10.592Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:51:10.592Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="Business Units" />
+      <bu-1 j:lastPublished="2014-01-15T13:52:39.550Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:52:39.300Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:52:39.534Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+        <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+        <j:translation_es j:lastPublished="2014-01-15T13:52:39.737Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:52:39.722Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="BU 1" />
+      </bu-1>
+      <bu-2 j:lastPublished="2014-01-15T13:52:43.107Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:52:42.857Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:52:43.107Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+        <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+        <j:translation_es j:lastPublished="2014-01-15T13:52:43.263Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:52:43.263Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="BU 2" />
+      </bu-2>
+    </business-units>
+    <genders j:lastPublished="2014-01-15T13:51:16.629Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:51:16.380Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:51:16.629Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+      <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+      <j:translation_es j:lastPublished="2014-01-15T13:51:16.863Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:51:16.848Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="Genders" />
+      <mr j:lastPublished="2014-01-15T13:52:52.000Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:52:51.750Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:52:51.984Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+        <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+        <j:translation_es j:lastPublished="2014-01-15T13:52:52.156Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:52:52.140Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="Mr" />
+      </mr>
+      <ms j:lastPublished="2014-01-15T13:52:55.026Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:52:54.792Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:52:55.011Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+        <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+        <j:translation_es j:lastPublished="2014-01-15T13:52:55.182Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:52:55.167Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="Ms" />
+      </ms>
+      <miss j:lastPublished="2014-01-15T13:52:59.816Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:52:59.488Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:52:59.816Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+        <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+        <j:translation_es j:lastPublished="2014-01-15T13:52:59.972Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:52:59.972Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="Miss" />
+      </miss>
+    </genders>
+    <status j:lastPublished="2014-01-15T13:51:20.592Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:51:20.374Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:51:20.576Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+      <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+      <j:translation_es j:lastPublished="2014-01-15T13:51:20.748Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:51:20.732Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="Status" />
+      <status-1 j:lastPublished="2014-01-15T13:53:09.785Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:53:09.598Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:53:09.785Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+        <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+        <j:translation_es j:lastPublished="2014-01-15T13:53:09.941Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:53:09.941Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="Status 1" />
+      </status-1>
+      <status-2 j:lastPublished="2014-01-15T13:53:12.937Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:53:12.734Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:53:12.937Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+        <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+        <j:translation_es j:lastPublished="2014-01-15T13:53:13.093Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:53:13.077Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="Status 2" />
+      </status-2>
+    </status>
+    <titles j:lastPublished="2014-01-15T13:51:25.662Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:51:25.413Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:51:25.662Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+      <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+      <j:translation_es j:lastPublished="2014-01-15T13:51:25.818Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:51:25.818Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="Titles" />
+      <doctor j:lastPublished="2014-01-15T13:53:26.479Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:53:26.213Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:53:26.463Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+        <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+        <j:translation_es j:lastPublished="2014-01-15T13:53:26.619Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:53:26.619Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="Doctor" />
+      </doctor>
+      <professor j:lastPublished="2014-01-15T13:53:30.644Z" j:lastPublishedBy="root" j:originWS="default" j:published="true" jcr:created="2014-01-15T13:53:30.457Z" jcr:createdBy="root" jcr:lastModified="2014-01-15T13:53:30.629Z" jcr:lastModifiedBy="root" jcr:mixinTypes="jmix:accessControlled" jcr:primaryType="jnt:category">
+        <j:acl j:inherit="true" jcr:primaryType="jnt:acl" />
+        <j:translation_es j:lastPublished="2014-01-15T13:53:30.785Z" j:lastPublishedBy="root" j:published="true" jcr:language="es" jcr:lastModified="2014-01-15T13:53:30.785Z" jcr:lastModifiedBy="root" jcr:primaryType="jnt:translation" jcr:title="Professor" />
+      </professor>
+    </titles>
+  </settings>
+</es-public>
+
